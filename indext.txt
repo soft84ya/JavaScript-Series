@@ -1,0 +1,107 @@
+GIT Knowledge
+
+1. Create the branch
+
+2. Switch to the branch
+
+dono task ek he baar krne h to . -b  means create new brach jump to new branch
+
+git checkout -b <new-branch>
+
+master -> new branch 
+
+git init
+git brach
+git checkout -b 15Mar24
+
+
+Today Topic :
+Expression,Operands,operator,Prescedence of operator,Associativity of operator,.,variable,
+
+
+
+
+ document.
+
+ . = member selection operator
+
+Airthematic operator 
+ + = addition
+ - = subscription
+
+ * , / all are airthematic operator
+
+
+ object.member  Formula
+ document.getElementById()
+
+    = Assigment operator
+
+    Left = Right
+    Left <- Right    
+    
+    = means value kidther se assign ho rhe h right to left
+
+    example : document.getElementById('root').innerHTML="thats Great";
+
+'' = single Qoute
+"" = Double Qoute 
+
+    if value in Qoute 'abc' thats means string value.
+
+
+    variable are like bucket
+
+    var <variable name>
+    var x;
+    var y;
+    var var;
+
+    variables are stored in Memory (RAM)
+
+    who is the best software engineer?
+    the software engineer who will utilize the best system resource.
+
+
+    Prescedence of operator (means priority)
+
+    z = x+y; //Expression 
+    
+    tell me how many operator u can see?
+     2 operator = +  
+     
+      jab b kisi line me ek se jyada operator aaye to wo expression 
+     khe jyge .
+     if u understand in Maths so it is a eqation but in JS its a Expression.
+
+
+ kisi expression ko js solve krte h that means Prescedence (priority) kisi document
+
+ + having higher priority (Prescedence)
+ = have low priority
+
+ x and y are operands
+
+ operands + operands
+
+
+Associativity of operator  Left = Right
+                Left <- Right
+
+        z = x+y  this is a expression. expression me priority jo bata h usko Prescedence kehthe hai.
+                  z ke ander jo value aayge wo kon btyga Associativity btata hai 
+
+                  exmaple  pehle addition hua uske baad result aaya . result z me jyga wo Associativity btyaga.                  
+
+
+1) Prescedence of operator
+2) Associativity of operator
+  dono chezo se milke expression solve hota hai.
+
+        //object.member
+        console.log(z);
+
+        //const a; const ka ek rule h jha usko declare kr rhe ho whahe usko initialize krna padega evn wo syntax error dega.
+
+        a = 50; // declare and initilazation.
+        console.log(z+a);
