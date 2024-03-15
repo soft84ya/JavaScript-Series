@@ -1,0 +1,80 @@
+Frontend Technology
+====================
+
+
+1) HTML - Website Structure
+2) CSS - Website Design/Presentation
+3)JS - Website Behaviour
+
+
+js is a client side scripting language..
+
+
+Programming Language             vs         Scripting Language
+
+
+c,c++,java,python,.net                      SourceCode -> InterPreate->Execute on Browser
+
+Source Code-> Compile->Execute              InterPreate by Browser           
+
+compiled by compiler .exe .dmg file
+dete h
+
+
+
+why js is the world's most popular Programming language 
+ js is  a programming language because of node js 
+
+
+ If u Know the JS
+
+ You can Build :
+
+ 1)Website
+ 2)Desktop Software for window/Apple/Linux
+ 3) Mobile Apps Android/ IOS
+ 4) OS Kernel Libraries
+ 5) OS Modules 
+ 6)Game Development
+
+
+ Electron.js create a Desktop Software example VS Code
+
+
+ Js can change HTML Content---- 
+ document.getElementById("a1").innerHTML ="Hi this is soft84ya";
+
+
+
+ <starttag>Content</endtag>
+
+ (= parenthesis start
+
+ ) = parenthesis end/close
+
+ instruction are always terminated by semi colon
+
+ instruction1;
+ instruction2;
+ instruction3;
+
+ Airthmetic Operation:
+ 1. Addition
+ 2. Subtration
+ 3. Multiplication
+ 4. Division
+
+
+ console.log(2+2);  if u use console so u can go with browser take a right click
+  and insepect see in console tab the output is shown
+
+
+
+  what are variables ?
+   variable are like bucket
+
+   bucket is used to hold items
+   similarly variable is used to hold  value..
+
+   example : 10,30, "Abhishek"
+    Number and Strind 
