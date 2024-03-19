@@ -1,0 +1,38 @@
+function :
+=============
+
+Reusable block of code it is a function. always use DRY principal (dont repeat yourself)
+
+calling krte samay kisi function ke aage = dikh  jaye that means wo kuch return kr rha h
+  
+   example : let z = myFunction(10,20);
+
+   myFunction ke aage = lga h ths y wo apne value z me return kr rha hai.
+   z is a global variable because wo function se bhar h
+
+
+   Pre defined function and user defined function
+
+   alert is a Predefined function.
+
+
+
+Array :
+==========
+variable can store 1 value at a time. ex: var student = "Aakash";
+
+Array can store more than 1 value at a time.
+Array are denoted by square bracket [].
+
+var students = ['ram','shyam','ghanshyam','avinash'];
+
+syntax 
+var arrayName = [element1,element2,element3,.......];
+let arrayName = [member1,member2,member3,......];
+const arrayName = [index0,index1,index3,.......];
+
+Loop:
+========
+
+
+

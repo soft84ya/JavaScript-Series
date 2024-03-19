@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function and Array</title>
+</head>
+<body>
+    <script>
+        //function Defination is a one time process
+        function myFunction(x,y){//x,y are formal argument/parameter
+        //function body
+
+        //function may return something 
+            return x+y;
+
+            //jab b function return krta h to usko cathch krne ke leye  ek vaible chye us variable se return function call hota h .
+        } 
+
+        //2. Function calling is a many time process
+
+            let z = myFunction(10,20);
+
+            //z id a global variable . x and z are differ  x,y are formal argumnet and z are global variable.
+
+                var a = myFunction(50,20);
+                console.log(z);
+                alert();// alert is a predefined function
+
+                var b = myFunction(40,myFunction(10,10));
+                alert(b);
+        //Array 
+
+        var students = ['abhishek','Ani','Arya','abhilash'];
+
+        console.log('hello'+students[2]+'how r u');
+        console.log('hello'+students[0]+'how r u');
+
+
+        function greet(m){
+            console.log('hello '+m+' how r u');
+
+        }
+            greet(students[1]);
+
+
+        /*for loop
+
+         for(initialization,condition,increment/decrement){
+
+         } */
+
+         for(var i=0;i<=3;i++){
+            greet(students[i]);
+         }
+
+         //2method of function
+
+         function greet2(s){
+            for(var i=0;i<=3;i++)
+            {
+                console.log('11 hello '+s[i]+',How r u');
+            }
+         }
+         greet2(students);
+    </script>
+</body>
+</html>
